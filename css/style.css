@@ -1,0 +1,137 @@
+html {
+	height:100%;
+	width:100%;
+	display: table;}
+	
+body {
+	
+	background-image: url("../images/carnaval.jpg");
+    background-repeat: repeat-x;
+
+
+
+	/*background-image: linear-gradient(white 180px,#DAE0EB);*/
+	min-height:100%;
+	margin: 0px;}
+
+h2 {
+	font-family : Arial;
+    color: gray;
+    font-size:19px;}
+
+p {
+color: gray;
+display: block;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+* {
+ font-family: Arial;
+}
+
+ #map-canvas
+ {
+        width: 500px;
+        height: 400px;
+         background-color: #CCC;
+      }
+
+.login_main {
+	background-color: transparent;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+line-height: 160%;
+}
+
+.effect{width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+.endereco {
+	
+padding: 8px 40px 35px 40px;
+margin: 40px 320px 20px 320px;
+background: #DEE8F0;
+border-radius: 6px;
+line-height: 200%;
+	
+}
+
+.tel
+{
+background: #FFFFFF;
+position: absolute;
+border-radius: 6px;
+text-align: center;
+padding: 30px;
+z-index: 10;
+right: 80px;
+top: 250px;
+	
+}
+
+
+.row_user_auth
+{
+	padding: 15px;
+margin: 18px;
+margin-left: -9px;
+margin-right: -9px;
+background: #d8d8d8;
+	}
+
+ul.menu1
+{
+	padding: 0px;
+    list-style-type: none;
+    height: 45px;
+    width:675px;
+    margin:0 auto;
+}
+
+ul.menu1 li
+{ 
+    border:1px solid #65A2DC;
+    border-right:none;
+    list-style-type: none;
+    padding:0;margin:0;
+    float:left;
+    display: block;
+    color:White;
+}
+ul.menu1 li.lastItem
+{ 
+    border-right:1px solid #65A2DC;
+}
+
+ul.menu1 li a
+{
+    padding: 7px 69px;
+    position: relative;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    background-image: url(../images/bg.gif);
+    border:1px solid #DDECF9;
+    border-top:1px solid #FFFFFF;
+    color:White;
+    text-decoration:none;
+    font: bold 19px Arial;
+    line-height: 37px;
+}
+
+.images {
+    width:250px; /* or whatever width you want. */
+    max-width:250px; /* or whatever width you want. */
+    display: inline-block;
+}
+
+ul.menu1 li a:hover, ul.menu1 li a.current
+{
+    background-position:0 -40px;
+}
